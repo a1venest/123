@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="img/logo.jpg" alt="logo">
+        <h1 class="title">Туристическое агенство Ивана Сусанина</h1>
+        <nav class="menu">
+            <a class="menu__link" href="#1">Об агенстве</a>
+            <a class="menu__link" href="#4">Контакты</a>
+            <a class="menu__link" href="#">Вакансии</a>
+            <a class="menu__link" href="#3">Сделать заказ</a>
+        </nav>
+    </header>
+    <div class="conteiner">
+        <aside class="left">
+            <ul class="left__navigation">
+                <li class="__navigation-list">
+                    <a href="#1" class="-list-link">О Нас</a>
+                </li>
+                <li class="__navigation-list">
+                    <a href="#2" class="-list-link">Доступные туры</a>
+                </li>
+                <li class="__navigation-list">
+                    <a href="#3" class="-list-link">Оставить заявку</a>
+                </li>
+                <li class="__navigation-list">
+                    <a href="#4" class="-list-link">Контакты</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <section class="main__firstElement" id="1">
+
+                <div class="__firstElement-info">
+                    <h2 class="-info-title">О Нас:</h2>
+                    <p class="-info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Asperiores voluptate inventore recusandae id laboriosam nihil ut,<br> alias tenetur, incidunt quidem harum <br> aut sed neque repellendus earum excepturi facere fugiat enim?</p>
+                </div>
+
+                <div class="__firstElement-list">
+                    <h2 class="-list-title">Инструкция для путешественников:</h2>
+                    <ul class="-list-instruction">
+                        <li class="-instruction-text">Выберите даты предполагаемого похода</li>
+                        <li class="-instruction-text">Укажите количество участников</li>
+                        <li class="-instruction-text">Укажите нужные дополнительные услуги</li>
+                        <li class="-instruction-text">Оформите заказ</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__secondElement" id="2">
+                <article class="__element-content">
+                    <a class="-content-link" href="">
+                        <h3 class="-link-text">Тур выходного дня</h3>
+                    </a><br><br>
+                    <img class="-content-photo" src="img/ur.jpg" alt="photo"><br><br>
+                    <p class="-content-text">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Perspiciatis asperiores voluptatum voluptatem <br> nihil vitae, officiis, doloribus quasi, corrupti <br> voluptas itaque fugit quisquam voluptates recusandae <br> et ratione
+                        alias corporis dolorum facere!
+                    </p>
+                </article>
+                <article class="__element-content">
+                    <a class="-content-link" href="">
+                        <h3 class="-link-text">Тур Сибирские просторы</h3>
+                    </a><br><br>
+                    <img class="-content-photo" src="img/sib.jpg" alt="photo"><br><br>
+                    <p class="-content-text">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Perspiciatis asperiores voluptatum voluptatem <br> nihil vitae, officiis, doloribus quasi, corrupti <br> voluptas itaque fugit quisquam voluptates recusandae <br> et ratione
+                        alias corporis dolorum facere!
+                    </p>
+                </article>
+                <article class="__element-content">
+                    <a class="-content-link" href="">
+                        <h3 class="-link-text">Тур отпуск на Камчатке</h3>
+                    </a><br><br>
+                    <img class="-content-photo" src="img/kam.jpg" alt="photo"><br><br>
+                    <p class="-content-text">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Perspiciatis asperiores voluptatum voluptatem <br> nihil vitae, officiis, doloribus quasi, corrupti <br> voluptas itaque fugit quisquam voluptates recusandae <br> et ratione
+                        alias corporis dolorum facere!
+                    </p>
+                </article>
+            </section>
+            <section class="main__thridElement" id="3">
+                <fieldset class="__thridElement-form">
+                    <div class="-form-title">
+                        <h2 class="-title-text">Сделать заказ</h2>
+                    </div>
+                    <div class="-form-panel">
+                        <div class="-panel-name">
+                            <label class="-name-form" for="fullName">Ваше ФИО:</label>
+                            <input class="-name-input" type="text" name="fullName" id="fullName">
+                        </div>
+                        <div class="-panel-number">
+                            <label class="-number-form" for="phone">Ваш номер телефона:</label>
+                            <input class="-number-input" type="tel" name="tel" id="phone">
+                        </div>
+                        <div class="-panel-date">
+                            <label class="-date-form" for="date">Планируемая дата:</label>
+                            <input class="-date-input" type="date" name="date" id="date">
+                        </div>
+                        <div class="-panel-value">
+                            <label class="-value-form" for="value">количество человек:</label>
+                            <input class="-value-input" type="number" max="20" min="1" step="1" id="value" name="value">
+                        </div>
+                    </div>
+                    <div class="-form-dop">
+                        <h2 class="-dop-title">Дополнительные услуги</h2>
+                        <div class="-dop-input">
+                            <div class="-input-container">
+                                <input class="-container-text" type="checkbox" required name="check">Аренда экипировки
+                            </div>
+                            <div class="-input-container">
+                                <input class="-container-text" type="checkbox" required name="check">Гид
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="-form-button">
+                        <button class="-button-text">Сделать заказ</button>
+                    </div>
+                </fieldset>
+            </section>
+        </main>
+        <aside class="right">
+            <a class="right__link" href="#4">Здесь могла быть<br> ваша реклама</a>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer">
+            <img class="footer__logo" src="img/logo.jpg" alt="logo">
+            <div class="footer__info" id="4">
+                <p class="__info-num">Тел. <a class="-num-number" href="tel:89008888877">8900888877</a></p>
+                <p class="__info-mail">Эл.почта <a class="-mail-email" href="mailto:susanin@mail.ru">susanin@mail.ru</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
